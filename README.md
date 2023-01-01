@@ -206,9 +206,7 @@ and you may let me know opening an issue.
 
 ## WARNING
 The recommended database to use is Postgresql, the other database backends may not work as expected.
-Unfortunately the MySQL does not work as expected, for example the BeforeSave Hook for User is not able to retrieve
-the Role model if using MySQL, the same code does work if SQLite, it is weird, because the SQL query generated is valid and it
-returns a row, but somehow the driver is not able to map it to the user.
+
 
 # Features
 - Authentication / Authorization
