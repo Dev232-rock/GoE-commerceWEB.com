@@ -245,7 +245,7 @@ words, I used different code to do the same thing over and over, there is some r
 as possible so you can learn different ways of achieving the same goal.
 
 Project structure:
-- models: Mvc, it is our domain data.
+- models: Mvc it is our domain data.
 - dtos: it contains our serializers, they will create the response to be sent as json. They also take care of validating the input(feature incomplete)
 - controllers: well this is the mvC, they receive the request from the user, they ask the services to perform an action for them on the database.
 - seeds: contains the file that seeds the database.
